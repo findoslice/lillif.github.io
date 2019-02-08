@@ -1,0 +1,111 @@
+body {
+  font-family: "Avenir Next";
+  background-color: #30415d;
+}
+
+footer {
+  color: #8eaebd;
+  font-size: 13px;
+  margin: 10px 0 50px 0;
+  text-align: center;
+}
+
+.ftr {
+  padding: 0 3px 0 3px;
+}
+
+p {
+  display: inline;
+}
+
+.apple {
+  font-family: "Homemade Apple";
+  font-size: 15px;
+}
+
+.element {
+  color: white;
+  display: block;
+  margin: 25px 15%;
+  padding: 40px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.introduction {
+  background: #8eaebd;
+  font-size: 18px;
+  text-align: center;
+}
+
+.location-img {
+  width: 30%;
+  height: 30%;
+}
+
+.my-btn {
+  background: none;
+  border: #cf6766 solid 1px;
+  color: #cf6766;
+  padding: 5px 10px;
+  text-decoration-line: none;
+}
+
+.my-btn:hover {
+  background: rgba(0, 0, 0, 0.2);
+  color: #cf6766;
+  text-decoration-line: none;
+}
+
+.my-nav {
+  margin: auto;
+  padding: 20px 10px 20px 10px;
+  text-align: right;
+}
+
+.my-nav-btn {
+  color: #8eaebd;
+  background: none;
+  border: none;
+  font-family: "Avenir Next";
+  font-size: 14px;
+  margin: auto;
+  padding: 0px 10px;
+}
+
+.my-nav-btn:hover {
+  color: #cf6766;
+  text-decoration-line: none;
+}
+
+.nav-num {
+  color: #cf6766;
+  padding: 0 10px 0 0px;
+  font-size: 13px;
+}
+
+.social-icon {
+  height: 25px;
+  opacity: 0.7;
+  margin: 0 20px 0 0;
+  width: 25px;
+}
+
+.textPanel {
+  background: #30415d;
+}
+
+.textPanel .body {
+  padding: 10px 20px;
+}
+
+.loc-panel {
+  background: #8eaebd;
+}
+
+.loc-panel .body {
+  padding: 10px 20px;
+}
