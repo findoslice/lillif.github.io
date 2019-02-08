@@ -1,1 +1,155 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>the sheep</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Homemade Apple"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- my NAVBAR -->
+      <nav class="my-nav">
+        <span>
+          <button class="my-nav-btn">
+            <a class="my-nav-btn active" href="#intro">
+              <p class="nav-num">01.</p>
+              Home</a
+            >
+          </button>
+          <button class="my-nav-btn">
+            <a class="my-nav-btn" href="#about">
+              <p class="nav-num">02.</p>
+              About</a
+            >
+          </button>
+          <button class="my-nav-btn">
+            <a class="my-nav-btn" href="#location">
+              <p class="nav-num">03.</p>
+              Location</a
+            >
+          </button>
+          <button class="my-nav-btn">
+            <a class="my-nav-btn" href="#contact">
+              <p class="nav-num">04.</p>
+              Contact</a
+            >
+          </button>
+
+          <button class="my-nav-btn ">
+            <a class="my-btn" href="#">Resume</a>
+          </button>
+        </span>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction element hidden" id="intro">
+        <p>
+          Hello, <br />
+          I am Elizabeth, the sheep. <br />
+          This is my website.
+        </p>
+
+        <p class="apple">
+          <br />
+          xoxo, <br />
+          Frizzy Lizzy
+        </p>
+      </section>
+
+      <section class="element textPanel hidden" id="about">
+        <h2>About Me</h2>
+
+        <div class="body">
+          <p>
+            I'm a sheep who enjoys relaxing in the mountains with my sheep
+            friends. I also am a professional model and am always happy to
+            receive job requests.
+          </p>
+          <p>
+            I live near Eksdale in the Lake District. My goal in life is to eat
+            as much grass as I can find.
+          </p>
+          <p>
+            Here you can download a picture of me:
+            <a href="images/me1.png" title="Me" download="SheepPic">pic</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="element loc-panel hidden" id="location">
+        <h2>This is where I spend most of my days:</h2>
+        <div class="body">
+          <img class="location-img" src="images/location.png" alt="" /> <br />
+          <br />
+          <a
+            href="https://www.google.com/maps/place/Eskdale/@54.5007735,-4.5566597,7.56z/data=!4m5!3m4!1s0x487cc8154537dc51:0xc8fd251f69766880!8m2!3d54.4125072!4d-3.2485765"
+            title="View my location on google maps"
+            target="_blank"
+            class="my-btn"
+          >
+            view my location</a
+          >
+        </div>
+      </section>
+
+      <section class="element textPanel hidden" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="body">
+          <p>
+            Although I'm not currently looking for any modelling jobs, my inbox
+            is always open. Whether for a potential project or just to say hi
+            (and maybe meet next time you're in the area), I'll try my best to
+            answer your email!
+          </p>
+          <br />
+          <br />
+          <a href="mailto:ljfreischem@gmail.com"
+            ><button class="my-btn">say hello</button></a
+          >
+        </div>
+      </section>
+
+      <section class="social">
+        <center>
+          <img
+            src="images/linkedin-white-1.png"
+            alt="LinkedIn"
+            class="social-icon"
+          />
+          <img
+            src="images/linkedin-white-1.png"
+            alt="LinkedIn"
+            class="social-icon"
+          />
+          <img
+            src="images/linkedin-white-1.png"
+            alt="LinkedIn"
+            class="social-icon"
+          />
+          <img
+            src="images/linkedin-white-1.png"
+            alt="LinkedIn"
+            class="social-icon"
+          />
+        </center>
+      </section>
+    </main>
+
+    <footer>
+      <p class="ftr">Lilli Freischem</p>
+      <p class="ftr">&copy;2019</p>
+    </footer>
+  </body>
+
+  <script src="scripts/main.js"></script>
+</html>
