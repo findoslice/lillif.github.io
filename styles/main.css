@@ -122,4 +122,53 @@ h2 {
   padding: 10px 20px;
 }
 
-/*create small navbar*/
+/*create collapsed navbar*/
+.nav_btn {
+  background: none;
+  border: none;
+  color: #cf6766;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.collapsed_nav {
+  float: left;
+}
+
+.collapsed_list {
+  display: none;
+  position: absolute;
+  background-color: #30415d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.collapsed_link {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+}
+
+.collapsed_list:hover {
+  background-color: #30415d;
+}
+
+.collapsed_nav:hover .collapsed_list {
+  display: block;
+}
+
+.collapsed_nav:hover .nav_btn .nav_shape {
+  background: #79a5b9;
+}
+
+.nav_shape {
+  width: 5px;
+  height: 5px;
+  background: #8eaebd;
+  border-radius: 50%;
+}
+
+.hide {
+  display: none;
+}
