@@ -2,6 +2,9 @@ body {
   font-family: "Avenir Next";
   background-color: #30415d;
 }
+header {
+  padding: 20px 20px 50px 10px;
+}
 
 footer {
   color: #8eaebd;
@@ -13,6 +16,14 @@ footer {
 .ftr {
   opacity: 0.7;
   padding: 0 3px 0 3px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 p {
@@ -61,31 +72,27 @@ h2 {
   text-decoration-line: none;
 }
 
-.my-nav {
-  margin: auto;
-  padding: 20px 10px 20px 10px;
-  text-align: right;
+.my_nav {
+  float: right;
+  margin: 0 0 30px 0;
+  break-after: always;
 }
 
-.my-nav-btn {
-  color: #8eaebd;
-  background: none;
-  border: none;
+.nav_link {
+  float: left;
+  margin: 20px;
+  color: #cf6766;
   font-family: "Avenir Next";
   font-size: 14px;
-  margin: auto;
-  padding: 0px 10px;
+  padding: 5px 12px;
 }
 
-.my-nav-btn:hover {
-  color: #cf6766;
-  text-decoration-line: none;
+.nav_link a {
+  color: #8eaebd;
 }
 
-.nav-num {
+.nav_link a:hover {
   color: #cf6766;
-  padding: 0 10px 0 0px;
-  font-size: 13px;
 }
 
 .social-icon {
@@ -114,3 +121,5 @@ h2 {
 .loc-panel .body {
   padding: 10px 20px;
 }
+
+/*create small navbar*/
