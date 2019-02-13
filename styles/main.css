@@ -1,13 +1,13 @@
 body {
   font-family: "Avenir Next";
-  background-color: #30415d;
+  background-color: #000;
 }
 header {
   padding: 20px 20px 50px 10px;
 }
 
 footer {
-  color: #8eaebd;
+  color: #0f61a0;
   font-size: 13px;
   margin: 10px 0 50px 0;
   text-align: center;
@@ -48,7 +48,7 @@ h2 {
 }
 
 .introduction {
-  background: #8eaebd;
+  background: #062f4f;
   font-size: 18px;
   text-align: center;
 }
@@ -60,15 +60,15 @@ h2 {
 
 .my-btn {
   background: none;
-  border: #cf6766 solid 1px;
-  color: #cf6766;
+  border: #b82601 solid 1px;
+  color: #b82601;
   padding: 5px 10px;
   text-decoration-line: none;
 }
 
 .my-btn:hover {
-  background: rgba(0, 0, 0, 0.2);
-  color: #cf6766;
+  background: rgba(6, 38, 63, 0.8);
+  color: #b82601;
   text-decoration-line: none;
 }
 
@@ -81,18 +81,18 @@ h2 {
 .nav_link {
   float: left;
   margin: 20px;
-  color: #cf6766;
+  color: #b82601;
   font-family: "Avenir Next";
   font-size: 14px;
   padding: 5px 12px;
 }
 
 .nav_link a {
-  color: #8eaebd;
+  color: #0f61a0;
 }
 
 .nav_link a:hover {
-  color: #cf6766;
+  color: #b82601;
 }
 
 .social-icon {
@@ -107,7 +107,7 @@ h2 {
 }
 
 .textPanel {
-  background: #30415d;
+  background: #000;
 }
 
 .textPanel .body {
@@ -115,7 +115,7 @@ h2 {
 }
 
 .loc-panel {
-  background: #8eaebd;
+  background: #062f4f;
 }
 
 .loc-panel .body {
@@ -126,7 +126,7 @@ h2 {
 .nav_btn {
   background: none;
   border: none;
-  color: #cf6766;
+  color: #b82601;
   font-size: 14px;
   padding: 5px 10px;
 }
@@ -138,7 +138,7 @@ h2 {
 .collapsed_list {
   display: none;
   position: absolute;
-  background-color: #30415d;
+  background-color: #000;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -151,7 +151,7 @@ h2 {
 }
 
 .collapsed_list:hover {
-  background-color: #30415d;
+  background-color: #000;
 }
 
 .collapsed_nav:hover .collapsed_list {
@@ -165,7 +165,7 @@ h2 {
 .nav_shape {
   width: 5px;
   height: 5px;
-  background: #8eaebd;
+  background: #062f4f;
   border-radius: 50%;
 }
 
