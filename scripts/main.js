@@ -1,12 +1,5 @@
 const RESUME = document.querySelector(".resume");
-
-function reveal(e) {
-  if (RESUME.innerHTML === "Resume") {
-    RESUME.innerHTML = "B a a a a";
-  } else {
-    RESUME.innerHTML = "Resume";
-  }
-}
+const NAVBUTTON = document.querySelector(".nav-btn");
 
 RESUME.addEventListener("click", reveal, false);
 
@@ -14,6 +7,12 @@ RESUME.addEventListener("click", reveal, false);
 if window gets smaller than X, collapse nav bar */
 
 window.addEventListener("resize", navAdjust, false);
+
+/* check window size, if it is small already (when opening page): collapse */
+
+if (window.innerWidth < 700) {
+  navAdjust();
+}
 
 function navAdjust() {
   /* if less than 700px wide, collapse */
@@ -28,11 +27,9 @@ function navAdjust() {
       myNav.classList.add("collapsed_nav");
       myList.classList.add("collapsed_list");
       for (let item of myLinks) {
-        console.log(item.classList);
         item.classList.add("collapsed_link");
       }
       navButton.classList.remove("hide");
-      console.log("added small");
     }
   } else {
     /* expand */
@@ -45,7 +42,17 @@ function navAdjust() {
         item.classList.remove("collapsed_link");
       }
       navButton.classList.add("hide");
-      console.log("removed small");
     }
   }
 }
+
+function reveal(e) {
+  e.preventDefault();
+  if (RESUME.innerHTML === "Resume") {
+    RESUME.innerHTML = "B a a a a";
+  } else {
+    RESUME.innerHTML = "Resume";
+  }
+}
+
+/* show sidebar if button was clicked */
