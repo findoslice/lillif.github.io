@@ -54,5 +54,3 @@ function reveal(e) {
     RESUME.innerHTML = "Resume";
   }
 }
-
-/* show sidebar if button was clicked */
