@@ -1,21 +1,17 @@
 body {
-  font-family: "Avenir Next";
+  font-family: "Kohinoor Telugu";
   background-color: #000;
 }
+
 header {
   padding: 20px 20px 50px 10px;
 }
 
 footer {
-  color: #0f61a0;
+  color: rgba(255, 255, 255, 0.4);
   font-size: 13px;
   margin: 10px 0 50px 0;
   text-align: center;
-}
-
-.ftr {
-  opacity: 0.7;
-  padding: 0 3px 0 3px;
 }
 
 a {
@@ -26,10 +22,6 @@ a:hover {
   text-decoration: none;
 }
 
-p {
-  display: inline;
-}
-
 .apple {
   font-family: "Homemade Apple";
   font-size: 15px;
@@ -38,8 +30,9 @@ p {
 .element {
   color: white;
   display: block;
-  margin: 25px 15%;
-  padding: 40px;
+  margin: 20px 5%;
+  padding: 100px 40px 80px 40px;
+  border-top: white solid 0.03px;
 }
 
 h2 {
@@ -48,7 +41,7 @@ h2 {
 }
 
 .introduction {
-  background: #062f4f;
+  border-top: none;
   font-size: 18px;
   text-align: center;
 }
@@ -82,13 +75,12 @@ h2 {
   float: left;
   margin: 20px;
   color: #b82601;
-  font-family: "Avenir Next";
   font-size: 14px;
   padding: 5px 12px;
 }
 
 .nav_link a {
-  color: #0f61a0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .nav_link a:hover {
@@ -106,19 +98,7 @@ h2 {
   opacity: 0.8;
 }
 
-.textPanel {
-  background: #000;
-}
-
 .textPanel .body {
-  padding: 10px 20px;
-}
-
-.loc-panel {
-  background: #062f4f;
-}
-
-.loc-panel .body {
   padding: 10px 20px;
 }
 
@@ -171,4 +151,15 @@ h2 {
 
 .hide {
   display: none;
+}
+
+#sheep-footer {
+  display: inline;
+  color: #b82601;
+  opacity: 0.7;
+}
+
+#sheep-footer:hover {
+  color: #b82601;
+  opacity: 1;
 }
