@@ -1,14 +1,7 @@
-const RESUME = document.querySelector(".resume");
 const NAVBUTTON = document.querySelector(".nav-btn");
 
-RESUME.addEventListener("click", reveal, false);
-
-/* add window event listener,
-if window gets smaller than X, collapse nav bar */
-
+//adjust navbar when window is resized
 window.addEventListener("resize", navAdjust, false);
-
-/* check window size, if it is small already (when opening page): collapse */
 
 if (window.innerWidth < 700) {
   navAdjust();
@@ -43,14 +36,5 @@ function navAdjust() {
       }
       navButton.classList.add("hide");
     }
-  }
-}
-
-function reveal(e) {
-  e.preventDefault();
-  if (RESUME.innerHTML === "Resume") {
-    RESUME.innerHTML = "B a a a a";
-  } else {
-    RESUME.innerHTML = "Resume";
   }
 }

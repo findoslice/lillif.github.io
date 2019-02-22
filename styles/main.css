@@ -10,7 +10,7 @@ header {
 footer {
   color: rgba(255, 255, 255, 0.4);
   font-size: 13px;
-  margin: 10px 0 50px 0;
+  margin: 10px 0 30px 0;
   text-align: center;
 }
 
@@ -22,11 +22,6 @@ a:hover {
   text-decoration: none;
 }
 
-.apple {
-  font-family: "Homemade Apple";
-  font-size: 15px;
-}
-
 .element {
   color: white;
   display: block;
@@ -36,7 +31,7 @@ a:hover {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: normal;
 }
 
@@ -60,7 +55,7 @@ h2 {
 }
 
 .my-btn:hover {
-  background: rgba(6, 38, 63, 0.8);
+  background: rgba(255, 255, 255, 0.1);
   color: #b82601;
   text-decoration-line: none;
 }
@@ -153,13 +148,34 @@ h2 {
   display: none;
 }
 
-#sheep-footer {
+#link-footer {
   display: inline;
   color: #b82601;
   opacity: 0.7;
 }
 
-#sheep-footer:hover {
+#link-footer:hover {
   color: #b82601;
   opacity: 1;
+}
+
+.photo {
+  margin: 40px 0 0 0;
+  opacity: 0.7;
+  width: 70%;
+}
+
+.photo:hover {
+  animation: getvisible 500ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+}
+
+@keyframes getvisible {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
 }
