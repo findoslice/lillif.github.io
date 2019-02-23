@@ -16,10 +16,14 @@ footer {
 
 a {
   text-decoration: none;
+  color: #b82601;
+  opacity: 0.8;
 }
 
 a:hover {
   text-decoration: none;
+  color: #b82601;
+  opacity: 1;
 }
 
 .element {
@@ -32,6 +36,11 @@ a:hover {
 
 h2 {
   font-size: 28px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 20px;
   font-weight: normal;
 }
 
@@ -146,6 +155,28 @@ h2 {
 
 .hide {
   display: none;
+}
+
+.lizziespic {
+  margin: 0 0 20px 0;
+  width: 80%;
+  border-radius: 50%;
+}
+
+.lizziespic:hover {
+  animation-name: spin;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #link-footer {

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>the sheep</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Homemade Apple"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <!-- my NAVBAR -->
+
+      <nav class="my_nav" id="mynav">
+        <button class="nav_btn hide" id="mynavbutton">
+          <div class="nav_shape"></div>
+          <div class="nav_shape" style=" margin: 1px 0 1px 9px;"></div>
+          <div class="nav_shape"></div>
+        </button>
+        <ol class="nav_list" id="mynavlist">
+          <li class="nav_link">
+            <a href="#intro">Home</a>
+          </li>
+          <li class="nav_link">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav_link">
+            <a href="#location">Location</a>
+          </li>
+          <li class="nav_link">
+            <a href="#contact">Contact</a>
+          </li>
+          <a class="my-btn nav_link resume" href="index.html">Back to Random Website</a>
+        </ol>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction element hidden" id="intro">
+        <img src="images/sheep.png" class="lizziespic" />
+        <p>
+          Hello, <br />
+          I am Elizabeth, the sheep. <br />
+          This is my website.
+        </p>
+
+        <p class="apple">
+          xoxo, <br />
+          Frizzy Lizzy
+        </p>
+      </section>
+
+      <section class="element textPanel hidden" id="about">
+        <h3>About Me</h3>
+
+        <div class="body">
+          <p>
+            I'm a sheep who enjoys relaxing in the mountains with my sheep
+            friends. I also am a professional model and am always happy to
+            receive job requests.
+          </p>
+          <p>
+            I live near Eksdale in the Lake District. My goal in life is to eat
+            as much grass as I can find.
+          </p>
+        </div>
+      </section>
+
+      <section class="element textPanel hidden" id="location">
+        <h3>This is where I spend most of my days:</h3>
+        <div class="body">
+          <a
+            href="https://www.google.com/maps/place/Eskdale/@54.5007735,-4.5566597,7.56z/data=!4m5!3m4!1s0x487cc8154537dc51:0xc8fd251f69766880!8m2!3d54.4125072!4d-3.2485765"
+            title="View my location on google maps"
+            target="_blank"
+            class="my-btn"
+          >
+            view my location</a
+          >
+        </div>
+      </section>
+
+      <section class="element textPanel hidden" id="contact">
+        <h3>Get In Touch</h3>
+        <div class="body">
+          <p>
+            Although I'm not currently looking for any modelling jobs, my inbox
+            is always open. Whether for a potential project or just to say hi
+            (and maybe meet next time you're in the area), I'll try my best to
+            answer your email!
+          </p>
+
+          <a href="mailto:thesheepdoesnothaveanemailaddress"
+            ><button class="my-btn">say hello</button></a
+          >
+        </div>
+      </section>
+
+    <footer>
+      <p>
+        Build & Designed by
+        <a id="sheep-footer" href="https://github.com/lillif">L</a>
+      </p>
+    </footer>
+  </body>
+
+  <script src="scripts/main.js"></script>
+</html>
