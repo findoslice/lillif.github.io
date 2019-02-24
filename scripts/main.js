@@ -1,4 +1,5 @@
 const NAVBUTTON = document.querySelector(".nav-btn");
+const PHOTOS = document.getElementsByClassName("photo");
 
 //adjust navbar when window is resized
 window.addEventListener("resize", navAdjust, false);
@@ -37,4 +38,35 @@ function navAdjust() {
       navButton.classList.add("hide");
     }
   }
+}
+
+//photos
+
+//change opacity when focused on photo
+for (let photo of PHOTOS) {
+  photo.addEventListener(
+    "mouseenter",
+    function() {
+      fullOpacity(this);
+    },
+    false
+  );
+  photo.addEventListener(
+    "mouseleave",
+    function() {
+      reduceOpacity(this);
+    },
+    false
+  );
+}
+
+function fullOpacity(e) {
+  e.classList.remove("blurredPic");
+  e.classList.add("focusedPic");
+  console.log("added focus to" + e);
+}
+
+function reduceOpacity(e) {
+  e.classList.remove("focusedPic");
+  e.classList.add("blurredPic");
 }
